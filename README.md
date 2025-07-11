@@ -1,5 +1,6 @@
+```
 my_game/
-├── 📁 assets/              # Archivos visuales y de audio
+|── 📁 assets/              # Archivos visuales y de audio
 │   ├── 📁 sprites/         # Imágenes y spritesheets
 │   ├── 📁 tilesets/        # Tilesets para mapas
 │   ├── 📁 audio/           # Música y efectos de sonido
@@ -31,3 +32,4 @@ my_game/
 │
 ├── project.godot          # Archivo principal del proyecto
 └── README.md              # Opcional, información del proyecto
+```
