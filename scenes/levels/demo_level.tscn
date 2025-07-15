@@ -1,8 +1,9 @@
-[gd_scene load_steps=8 format=4 uid="uid://cuukybpo00qll"]
+[gd_scene load_steps=9 format=4 uid="uid://cuukybpo00qll"]
 
 [ext_resource type="PackedScene" uid="uid://430tti74jxxy" path="res://scenes/player/main_character.tscn" id="1_51i3u"]
 [ext_resource type="Script" uid="uid://cv0n2ybb2mx54" path="res://scripts/utils/camera_2d.gd" id="1_anw1g"]
 [ext_resource type="Texture2D" uid="uid://bslykkkspv48i" path="res://assets/tilesets/forest/wall/all.png" id="4_anw1g"]
+[ext_resource type="PackedScene" uid="uid://dhiwip7qfvx21" path="res://scenes/enemies/yeti_enemy.tscn" id="5_anw1g"]
 [ext_resource type="Texture2D" uid="uid://cihots0aihko8" path="res://assets/tilesets/forest/floor/all.png" id="5_jr7pl"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_18ckx"]
@@ -62,3 +63,6 @@ tile_set = SubResource("TileSet_4g07q")
 
 [node name="MainCharacter" parent="." instance=ExtResource("1_51i3u")]
 position = Vector2(143.127, 450.053)
+
+[node name="YetiEnemy" parent="." instance=ExtResource("5_anw1g")]
+position = Vector2(232.788, 450.053)

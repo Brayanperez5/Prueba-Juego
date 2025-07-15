@@ -285,10 +285,10 @@ size = Vector2(16.9732, 21.7704)
 [node name="MainCharacter" type="CharacterBody2D"]
 script = ExtResource("1_sib40")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." groups=["player"]]
 scale = Vector2(0.996712, 1)
 sprite_frames = SubResource("SpriteFrames_lt04u")
-animation = &"Attack"
+animation = &"Jump"
 autoplay = "Idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
